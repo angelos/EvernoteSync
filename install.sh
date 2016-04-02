@@ -1,0 +1,1 @@
+(crontab -l ; echo "* * * * * * osascript `pwd`/EvernoteSync.scpt") | crontab
